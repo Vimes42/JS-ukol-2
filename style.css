@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    text-align: center;
+}
+
+.odstavec {
+    font-size: 16px;
+}
+
+.cerveny {
+    color: red;
+}
+
+.tlacitko {
+    color: white;
+    background-color: rgb(128, 128, 243);
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.noticka {
+    margin-top: 50px;
+}
